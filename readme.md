@@ -1,6 +1,3 @@
-Bien sûr ! Voici un exemple de README.md clair et professionnel pour ton projet :
-
-````markdown
 # Payload Generator & Listener Tool
 
 A command-line tool to generate various reverse shell payloads for multiple OS and languages, launch listeners, and generate Metasploit msfvenom payloads.
