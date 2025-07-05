@@ -24,7 +24,7 @@ def main():
             protocol = input("Protocol (tcp/udp): ").strip().lower()
             encode = input("Encode payload? (y/n): ").strip().lower() == "y"
             obfuscate = input("Obfuscate payload (powershell only)? (y/n): ").strip().lower() == "y"
-            key = "key" 
+            key = "key"
 
             try:
                 payload = payloads.generate_payload(os_type, lang, ip, port, protocol, encode, obfuscate, key)
